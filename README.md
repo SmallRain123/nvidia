@@ -1,13 +1,15 @@
 # 使用说明
-在本地需要使用curl工具需要提前安装好
-```bash
-sudo -i
-apt update -y && apt install -y curl
-```
 
-执行安装：
+> 在本地需要使用git工具需要提前安装好
+
 ```bash
-curl -fsSL https://github.com/SmallRain123/nvidia/drivers/gpu-driver-install.sh |bash
+git clone https://github.com/SmallRain123/nvidia.git /tmp/nvidia
+
+cd /tmp/nvidia/drivers/
+
+chmod +x gpu-driver-install.sh
+
+./gpu-driver-install.sh
 ```
 
 # 脚本内容
